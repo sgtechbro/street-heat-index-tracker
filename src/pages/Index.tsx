@@ -25,7 +25,7 @@ const Index = () => {
         {/* Disclaimer */}
         <div className="disclaimer">
           <div className="container">
-            <p>⚠️ Satirical project. These are real (but mostly unreliable) indicators. Not financial advice. Please don't make investment decisions based on hemline lengths.</p>
+            <p>⚠️ Satirical project. These are real (but mostly unreliable) indicators. Not financial advice. Please don't make investment decisions based on hemline lengths or vasectomy rates.</p>
           </div>
         </div>
 
@@ -33,9 +33,9 @@ const Index = () => {
         <section className="indicators-section">
           <div className="container">
             <div className="section-header">
-              <h2 className="section-header__title">The 10 Indicators</h2>
+              <h2 className="section-header__title">The 12 Indicators</h2>
               <p className="section-header__desc">
-                Each scored 0–100 based on real-world signals. Higher = worse conditions. The composite inverts and weights them into an overall health reading.
+                Each scored 0–100 based on real-world signals. Higher = more heat. The composite weights them into one Street Heat reading.
               </p>
             </div>
             <div className="indicators-grid">

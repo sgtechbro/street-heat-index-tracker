@@ -47,6 +47,9 @@ const Sources = () => {
               <li><a href="https://www.champagne.fr/en/find-out-more/mediaroom/champagne-press/champagne-2025-shipment-review-and-outlook" target="_blank" rel="noopener noreferrer">Comite Champagne — 2025 Shipment Review</a></li>
               <li><a href="https://stockanalysis.com/stocks/rick/revenue/" target="_blank" rel="noopener noreferrer">Stock Analysis — RCI Hospitality (RICK) Revenue</a></li>
               <li><a href="https://www.marketplace.org/story/2025/03/28/recession-indicators-internet-culture-trend" target="_blank" rel="noopener noreferrer">Marketplace — Recession Indicators Based on Culture</a></li>
+              <li><a href="https://www.businessinsider.com/frozen-pizza-sales-recession-indicator-stock-market-crash-consumer-trends-2025-4" target="_blank" rel="noopener noreferrer">Business Insider — Frozen Pizza as Recession Indicator</a></li>
+              <li><a href="https://www.npr.org/sections/health-shots/2014/10/21/357786150/when-the-economy-goes-down-vasectomies-go-up" target="_blank" rel="noopener noreferrer">NPR — When The Economy Goes Down, Vasectomies Go Up</a></li>
+              <li><a href="https://www.auajournals.org/doi/10.1016/j.juro.2013.12.045" target="_blank" rel="noopener noreferrer">Journal of Urology — Economic Conditions & Vasectomy Rates</a></li>
             </ul>
           </div>
         </div>
