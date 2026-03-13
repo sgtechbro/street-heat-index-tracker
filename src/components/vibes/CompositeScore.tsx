@@ -68,8 +68,7 @@ const CompositeScore = () => {
               <circle cx="200" cy="190" r="10" fill="var(--color-accent)"/>
               <circle cx="200" cy="190" r="5" fill="var(--color-bg)"/>
             </g>
-            {/* Status text below */}
-            <text x="200" y="230" className="gauge-status" textAnchor="middle">{statusText}</text>
+            {/* Status text removed — shown in verdict below */}
           </svg>
         </div>
         <div className="composite__meta">
