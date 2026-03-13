@@ -26,15 +26,15 @@ const Index = () => {
         <section className="indicators-section">
           <div className="container">
             <div className="section-header">
-              <h2 className="section-header__title">The 12 Indicators</h2>
+              <h2 className="section-header__title">The Dirty Dozen</h2>
               <p className="section-header__desc text-sm">
-                Each scored 0–100 based on real-world signals. Higher = worse conditions. The composite inverts and weights them into an overall health reading.
+                12 unconventional cultural indicators scored 0 to 100 based on real data. Higher = worse conditions.
               </p>
             </div>
             <div className="indicators-grid">
-              {indicators.map((ind) =>
-              <IndicatorCard key={ind.id} indicator={ind} />
-              )}
+              {indicators.map((ind) => (
+                <IndicatorCard key={ind.id} indicator={ind} />
+              ))}
             </div>
           </div>
         </section>
@@ -43,8 +43,8 @@ const Index = () => {
         <Sources />
       </main>
       <Footer />
-    </>);
-
+    </>
+  );
 };
 
 export default Index;
