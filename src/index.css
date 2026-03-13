@@ -588,8 +588,9 @@ body {
 .indicator-card__bar-labels {
   display: flex;
   justify-content: space-between;
-  font-size: 11px;
-  color: var(--color-text-faint);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
   margin-bottom: var(--space-2);
 }
 
