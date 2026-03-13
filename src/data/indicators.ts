@@ -58,7 +58,7 @@ export const indicators: Indicator[] = [
     id: 'underwear',
     emoji: '🩲',
     name: 'Men\'s Underwear Index',
-    aka: 'The Greenspan Gauge',
+    aka: "Greenspan's Standard",
     desc: 'Popularized by former Fed Chair Alan Greenspan himself. The logic: nobody sees men\'s underwear, so when budgets tighten, guys just keep wearing the old ones longer. Sales stagnate, elastic gives out, and economists nod knowingly.',
     rationale: 'Mar 2026: No strong data either way. Slight softness in apparel broadly, but no dramatic underwear-specific decline reported yet.',
     signalBad: 'Sales declining',
