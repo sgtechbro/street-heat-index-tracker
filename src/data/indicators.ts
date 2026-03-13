@@ -130,7 +130,7 @@ export const indicators: Indicator[] = [
     id: 'hotWaitress',
     emoji: '🍽️',
     name: 'Hot Waitress Index',
-    aka: 'The Attractiveness Reallocation Theory',
+    aka: 'Attractiveness Reallocation Theory',
     desc: 'Coined by New York Magazine in 2009. In good times, attractive people get high-paying gigs based on looks. In downturns, those jobs vanish and the talent pool floods into the service industry.',
     rationale: 'Mar 2026: Leisure & hospitality employment at 16.9M per BLS (FRED USLAH), essentially flat. Some softness in hiring, not dramatic enough for full talent reallocation.',
     signalBad: 'Model-tier servers',
