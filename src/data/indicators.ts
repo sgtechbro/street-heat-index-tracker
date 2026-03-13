@@ -184,7 +184,7 @@ export const indicators: Indicator[] = [
     id: 'rWord',
     emoji: '📰',
     name: 'The R-Word Index',
-    aka: 'The Media Panic Meter',
+    aka: 'Media Panic Meter',
     desc: 'Created by The Economist. It counts how many times the Washington Post and New York Times use the word "recession" per quarter. More mentions = more panic = closer to reality. It flagged the 1981 and 1990 recessions.',
     rationale: 'Mar 2026: "Recession" mentions have been climbing steadily since mid-2025. Tariff fears, geopolitical tensions, and stagnant jobs keeping the R-word in heavy rotation.',
     signalBad: 'Media mentions surging',
