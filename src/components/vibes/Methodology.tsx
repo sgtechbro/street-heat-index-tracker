@@ -37,7 +37,7 @@ const Methodology = () => {
             <div className="formula-box">
               <div className="formula-box__title">Weighting Formula</div>
               <div className="formula-box__equation">
-                SHIT-o-meter Score<br>= 100 - Σ(w<sub>i</sub> × s<sub>i</sub>) / Σ(w<sub>i</sub>)
+                SHIT-o-meter Score<br />= 100 - Σ(w<sub>i</sub> × s<sub>i</sub>) / Σ(w<sub>i</sub>)
               </div>
               <ul className="formula-box__items" role="list">
                 <li>
