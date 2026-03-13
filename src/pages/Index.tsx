@@ -28,7 +28,8 @@ const Index = () => {
             <div className="section-header">
               <h2 className="section-header__title">The Dirty Dozen</h2>
             <p className="section-header__desc text-base">
-              12 unconventional cultural indicators scored 0 to 100 based on real data. Higher = worse conditions.
+              12 unconventional cultural indicators.scored 0 to 100.<br />
+              Based on real world data. Higher number = worse conditions.
             </p>
             </div>
             <div className="indicators-grid">
