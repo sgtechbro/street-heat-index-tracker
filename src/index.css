@@ -306,7 +306,6 @@ body {
 
 .hero__subtitle {
   font-size: var(--text-base);
-  font-weight: 700;
   color: var(--color-text-muted);
   line-height: 1.6;
 }
