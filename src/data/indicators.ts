@@ -166,7 +166,7 @@ export const indicators: Indicator[] = [
     id: 'diaperRash',
     emoji: '👶',
     name: 'The Diaper Rash Index',
-    aka: 'The Butt Cream Barometer',
+    aka: 'Butt Cream Budgeting',
     desc: 'Parents struggling financially start rationing diapers — changing them less frequently. This leads to more diaper rash and higher ointment sales. In 2011, diaper rash ointment sales rose 8% while diaper sales declined.',
     rationale: 'Mar 2026: No dramatic signals yet. Household budgets are tighter with inflation, but diaper-specific data is quiet. Monitoring consumer sentiment.',
     signalBad: 'Ointment sales rising',
