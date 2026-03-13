@@ -40,7 +40,7 @@ export const indicators: Indicator[] = [
     id: 'stripper',
     emoji: '💃',
     name: 'The Stripper Index',
-    aka: 'The Gentleman\'s Club Bellwether',
+    aka: "Gentleman's Purchasing Power",
     desc: 'Exotic dancers are among the first to see recessions coming. Tips are pure discretionary spending — when wallets tighten, the champagne room goes quiet first. RCI Hospitality (RICK) stock is the closest public proxy.',
     rationale: 'Mar 2026: RICK revenue fell to $70.3M in Q1 FY2026, down from $76.2M a year ago. Dancers report conditions "worse than 2008." Revenue declined 5.3% YoY.',
     signalBad: 'Tips drying up',
