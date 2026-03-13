@@ -5,8 +5,8 @@ const Footer = () => (
         ⚠️
         <br />
         <br />
-        The Street Heat Index Tracker is a satirical demo project. <br />
-        Please don't make financial decisions based on this.
+        The Street Heat Index Tracker is a satirical demo. <br />
+        Please don't base financial decisions on this.
       </p>
     </div>
   </footer>
