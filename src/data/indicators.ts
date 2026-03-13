@@ -22,7 +22,7 @@ export const indicators: Indicator[] = [
     id: 'lipstick',
     emoji: '💄',
     name: 'The Lipstick Index',
-    aka: 'The Affordable Luxury Effect',
+    aka: 'Affordable Luxury Effect',
     desc: 'Coined by Estee Lauder chairman Leonard Lauder in 2001. When the economy tanks, people skip the handbags but splurge on lipstick — small luxuries feel justified when big ones don\'t. Lipstick sales rose 11% during the 2001 recession.',
     rationale: 'Mar 2026: e.l.f. Beauty\'s CFO confirmed the lipstick index is "alive and well" — consumers are trading down from prestige to mass-market brands, a classic recession signal.',
     signalBad: 'Lipstick sales surging',
