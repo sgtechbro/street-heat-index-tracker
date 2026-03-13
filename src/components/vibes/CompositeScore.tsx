@@ -66,10 +66,6 @@ const CompositeScore = () => {
             <text x="200" y="250" className="gauge-status" textAnchor="middle">{statusText}</text>
           </svg>
         </div>
-        <div className="composite__update-tag">
-          <span className="header__pulse"></span>
-          Updated Mar 2026
-        </div>
         <div className="composite__meta">
           <div className="composite__label">Composite Vibes Score</div>
           <h2 className={verdictClass}>{verdict}</h2>
