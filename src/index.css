@@ -505,7 +505,7 @@ body {
 
 .indicator-card__name {
   font-family: var(--font-display);
-  font-size: var(--text-sm);
+  font-size: calc(var(--text-sm) * 1.15);
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 2px;
