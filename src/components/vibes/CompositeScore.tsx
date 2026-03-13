@@ -36,7 +36,7 @@ const CompositeScore = () => {
     <section className="composite" id="score">
       <div className="container composite__inner">
         <div className="composite__gauge-wrap">
-          <svg className="gauge-svg" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Composite vibes gauge">
+          <svg className="gauge-svg" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Composite vibes gauge">
             <defs>
               <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop offset="0%" style={{ stopColor: 'var(--color-red)' }} />
@@ -44,20 +44,26 @@ const CompositeScore = () => {
                 <stop offset="100%" style={{ stopColor: 'var(--color-green)' }} />
               </linearGradient>
             </defs>
+            {/* Track background */}
             <path d="M 40 190 A 160 160 0 0 1 360 190"
                   fill="none" stroke="var(--color-surface-offset)" strokeWidth="24" strokeLinecap="round"/>
+            {/* Gradient overlay */}
             <path d="M 40 190 A 160 160 0 0 1 360 190"
                   fill="none" stroke="url(#gaugeGrad)" strokeWidth="24" strokeLinecap="round" opacity="0.25"/>
+            {/* Tick labels */}
             <text x="30" y="210" className="gauge-tick" textAnchor="middle">0</text>
             <text x="200" y="28" className="gauge-tick" textAnchor="middle">50</text>
             <text x="370" y="210" className="gauge-tick" textAnchor="middle">100</text>
-            <g transform={`rotate(${angle}, 200, 190)`}>
-              <line x1="200" y1="190" x2="200" y2="50" stroke="var(--color-accent)" strokeWidth="3" strokeLinecap="round"/>
-              <circle cx="200" cy="190" r="10" fill="var(--color-accent)"/>
-              <circle cx="200" cy="190" r="5" fill="var(--color-bg)"/>
-            </g>
+            {/* Score text — rendered before needle so needle draws on top */}
             <text x="200" y="175" className="gauge-score" textAnchor="middle" style={{ fill: scoreColor }}>{score}</text>
-            <text x="200" y="230" className="gauge-status" textAnchor="middle">{statusText}</text>
+            {/* Needle */}
+            <g transform={`rotate(${angle}, 200, 190)`} style={{ transition: 'transform 1s cubic-bezier(0.16, 1, 0.3, 1)' }}>
+              <line x1="200" y1="190" x2="200" y2="55" stroke="var(--color-accent)" strokeWidth="3" strokeLinecap="round"/>
+              <circle cx="200" cy="190" r="8" fill="var(--color-accent)"/>
+              <circle cx="200" cy="190" r="4" fill="var(--color-bg)"/>
+            </g>
+            {/* Status text below */}
+            <text x="200" y="250" className="gauge-status" textAnchor="middle">{statusText}</text>
           </svg>
         </div>
         <div className="composite__meta">
