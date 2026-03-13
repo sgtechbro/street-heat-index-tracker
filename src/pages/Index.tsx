@@ -6,8 +6,17 @@ import Methodology from "@/components/vibes/Methodology";
 import Sources from "@/components/vibes/Sources";
 import Footer from "@/components/vibes/Footer";
 import { indicators } from "@/data/indicators";
+import { useMemo } from "react";
 
 const Index = () => {
+  const latestUpdate = useMemo(() => {
+    const dates = indicators.map(ind => ind.lastUpdated);
+    // Sort by parsing month/year - find the most recent
+    const parsed = dates.map(d => new Date(d));
+    const latest = new Date(Math.max(...parsed.map(d => d.getTime())));
+    return latest.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  }, []);
+
   return (
     <>
       <Header />
@@ -18,7 +27,7 @@ const Index = () => {
         {/* Disclaimer */}
         <div className="disclaimer">
           <div className="container">
-            <p>Last update Mar 2026. Refreshes monthly.</p>
+            <p>Last update {latestUpdate}. Refreshes monthly.</p>
           </div>
         </div>
 
