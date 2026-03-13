@@ -441,6 +441,7 @@ body {
 
 .section-header__desc {
   font-size: var(--text-sm);
+  font-weight: 700;
   color: var(--color-text-muted);
 }
 
