@@ -13,7 +13,7 @@ const Methodology = () => {
         </button>
         <div className={`methodology__content${isOpen ? " methodology__content--open" : ""}`}>
           <div className="methodology__grid">
-            <div className="methodology__text">
+            <div className="methodology__text" style={{ paddingTop: "1.5rem" }}>
               <p>
                 Each indicator is scored 0 to 100 based on verifiable real world data. Sales figures, industry reports,
                 construction activity, media mentions, etc. Then weighted by historical signal strength. Higher = more
