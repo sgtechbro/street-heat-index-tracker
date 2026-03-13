@@ -23,6 +23,7 @@ const Header = () => {
             {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
           </button>
         </div>
+      </div>
     </header>
   );
 };
