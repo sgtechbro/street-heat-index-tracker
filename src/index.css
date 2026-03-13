@@ -490,41 +490,32 @@ body {
   min-width: 0;
 }
 
-.indicator-card__top-row {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  margin-bottom: 2px;
-}
-
 .indicator-card__name {
   font-family: var(--font-display);
   font-size: var(--text-sm);
   font-weight: 600;
   line-height: 1.2;
+  margin-bottom: 2px;
 }
 
-.indicator-card__score-badge {
+.indicator-card__score-big {
   font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 600;
-  padding: 2px var(--space-2);
-  border-radius: var(--radius-full);
-  white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight: 700;
   flex-shrink: 0;
+  line-height: 1;
+  min-width: 2.5rem;
+  text-align: right;
 }
 
-.indicator-card__score-badge--good {
+.indicator-card__score-big--good {
   color: var(--color-green);
-  background: var(--color-green-light);
 }
-.indicator-card__score-badge--mid {
+.indicator-card__score-big--mid {
   color: var(--color-yellow);
-  background: var(--color-yellow-light);
 }
-.indicator-card__score-badge--bad {
+.indicator-card__score-big--bad {
   color: var(--color-red);
-  background: var(--color-red-light);
 }
 
 .indicator-card__aka {
