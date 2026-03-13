@@ -41,8 +41,9 @@ const CompositeScore = () => {
   return (
     <section className="composite" id="score">
       <div className="container composite__inner">
+        <div className="composite__label">SHIT-O-METER</div>
         <div className="composite__gauge-wrap">
-          <svg className="gauge-svg" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Street Heat gauge">
+          <svg className="gauge-svg" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SHIT-O-METER gauge">
             <defs>
               <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop offset="0%" style={{ stopColor: 'var(--color-green)' }} />
@@ -72,7 +73,6 @@ const CompositeScore = () => {
           </svg>
         </div>
         <div className="composite__meta">
-          <div className="composite__label">Street Heat Score</div>
           <h2 className={verdictClass}>{verdict}</h2>
           <p className="composite__desc">{desc}</p>
         </div>
