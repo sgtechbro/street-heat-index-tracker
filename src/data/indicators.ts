@@ -93,8 +93,8 @@ export const indicators: Indicator[] = [
   {
     id: 'skyscraper',
     emoji: '🏗️',
-    name: 'The Skyscraper Curse',
-    aka: 'The Tower of Babel Index',
+    name: 'The Skyscraper Index',
+    aka: 'Tower of Babel Curse',
     desc: 'Proposed by Andrew Lawrence in 1999. Every time the world\'s tallest building gets built, a recession follows. Empire State Building → Great Depression. Burj Khalifa → 2008 Meltdown. The theory: mega-towers signal peak hubris.',
     rationale: 'Mar 2026: The Jeddah Tower (1 km tall) hit 80 floors in Jan 2026 and is accelerating. This is the biggest skyscraper alert since the Burj Khalifa.',
     signalBad: 'Record tower underway',
