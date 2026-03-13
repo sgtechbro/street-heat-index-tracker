@@ -202,7 +202,7 @@ export const indicators: Indicator[] = [
     id: 'frozenPizza',
     emoji: '🍕',
     name: 'Frozen Pizza Index',
-    aka: 'The Pepperoni Price Index',
+    aka: 'Eat At Home Signal',
     desc: 'When times get tough, people swap $30 delivery for a $5 DiGiorno. Frozen pizza sales spiked nearly $1 billion during 2020 alone. Premium frozen pizza sales are the real tell — consumers still want to treat themselves, just cheaper.',
     rationale: 'Mar 2026: US frozen pizza market hit $6.5–7B in 2024, well above pre-pandemic levels. Circana data shows frozen food sales 45% higher than 2019. Conagra\'s 2026 report confirms "takeout-style" frozen foods at $14.3B annually as dining-out costs keep climbing.',
     signalBad: 'Frozen pizza sales surging',
