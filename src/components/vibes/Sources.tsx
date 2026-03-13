@@ -13,7 +13,7 @@ const Sources = () => {
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}>
           
-          <h2 className="sources-section__title">Data Backing The  SHIT </h2>
+          <h2 className="sources-section__title">Does Any Data Back This  SHIT? </h2>
           <ChevronDown
             size={24}
             className={`sources-section__chevron${isOpen ? " sources-section__chevron--open" : ""}`} />
