@@ -15,17 +15,10 @@ const Index = () => {
         <Hero />
         <CompositeScore />
 
-        {/* Updated tag */}
-        <div className="disclaimer updated-tag">
-          <div className="container">
-            <p><span className="header__pulse"></span> Updated Mar 2026</p>
-          </div>
-        </div>
-
         {/* Disclaimer */}
         <div className="disclaimer">
           <div className="container">
-            <p>⚠️ Satirical project. These are real (but mostly unreliable) indicators. Not financial advice. Please don't make investment decisions based on hemline lengths or vasectomy rates.</p>
+            <p>Last update Mar 2026. Refreshes monthly.</p>
           </div>
         </div>
 
@@ -33,15 +26,15 @@ const Index = () => {
         <section className="indicators-section">
           <div className="container">
             <div className="section-header">
-              <h2 className="section-header__title">The 12 Indicators</h2>
+              <h2 className="section-header__title">The 10 Indicators</h2>
               <p className="section-header__desc">
-                Each scored 0–100 based on real-world signals. Higher = more heat. The composite weights them into one Street Heat reading.
+                Each scored 0–100 based on real-world signals. Higher = worse conditions. The composite inverts and weights them into an overall health reading.
               </p>
             </div>
             <div className="indicators-grid">
-              {indicators.map(ind => (
-                <IndicatorCard key={ind.id} indicator={ind} />
-              ))}
+              {indicators.map((ind) =>
+              <IndicatorCard key={ind.id} indicator={ind} />
+              )}
             </div>
           </div>
         </section>
@@ -50,8 +43,8 @@ const Index = () => {
         <Sources />
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default Index;
