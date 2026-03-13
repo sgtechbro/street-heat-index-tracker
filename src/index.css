@@ -397,7 +397,7 @@ body {
 
 .composite__desc {
   font-size: var(--text-sm);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-text-muted);
   line-height: 1.6;
 }
