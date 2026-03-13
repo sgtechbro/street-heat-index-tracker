@@ -55,10 +55,6 @@ const IndicatorCard = ({ indicator }: { indicator: Indicator }) => {
               </div>
             </div>
           </div>
-          <div className="indicator-card__source">
-            <a href={indicator.sourceUrl} target="_blank" rel="noopener noreferrer" className="indicator-card__source-text">{indicator.source}</a>
-            <span className="indicator-card__cadence">{indicator.cadence}</span>
-          </div>
         </div>
       </div>
     </div>
