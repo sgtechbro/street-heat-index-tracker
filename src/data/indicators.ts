@@ -76,7 +76,7 @@ export const indicators: Indicator[] = [
     id: 'hemline',
     emoji: '👗',
     name: 'The Hemline Index',
-    aka: 'The Skirt Length Barometer',
+    aka: 'Skirt Length Barometer',
     desc: 'Proposed in the 1920s by economist George Taylor. In good times, skirts get shorter. In downturns, hemlines drop to the floor like your 401(k). Mini skirts in the roaring \'20s, long skirts during the Great Depression.',
     rationale: 'Mar 2026: Gen Z is leaning into midi skirts, maxi lengths, and "quiet luxury" aesthetics. Low-rise jeans are back. Google Trends for "maxi skirt" up 40% YoY.',
     signalBad: 'Hemlines dropping',
