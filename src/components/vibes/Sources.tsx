@@ -11,28 +11,28 @@ const Sources = () => {
         <button
           className="sources-section__toggle"
           onClick={() => setIsOpen(!isOpen)}
-          aria-expanded={isOpen}
-        >
-          <h2 className="sources-section__title">Data Sources</h2>
+          aria-expanded={isOpen}>
+          
+          <h2 className="sources-section__title">Data Backing The  SHIT </h2>
           <ChevronDown
             size={24}
-            className={`sources-section__chevron${isOpen ? " sources-section__chevron--open" : ""}`}
-          />
+            className={`sources-section__chevron${isOpen ? " sources-section__chevron--open" : ""}`} />
+          
         </button>
         <div
-          className={`sources-section__content${isOpen ? " sources-section__content--open" : ""}`}
-        >
+          className={`sources-section__content${isOpen ? " sources-section__content--open" : ""}`}>
+          
           <div className="sources-grid">
-            {indicators.map(ind => (
-              <div key={ind.id} className="source-card">
+            {indicators.map((ind) =>
+            <div key={ind.id} className="source-card">
                 <div className="source-card__indicator">{ind.emoji} {ind.name}</div>
                 <div className="source-card__details">
-                  Source: <a href={ind.sourceUrl} target="_blank" rel="noopener noreferrer">{ind.source}</a><br/>
+                  Source: <a href={ind.sourceUrl} target="_blank" rel="noopener noreferrer">{ind.source}</a><br />
                   Last data: {ind.lastUpdated}
                 </div>
                 <span className="source-card__cadence">{ind.cadence}</span>
               </div>
-            ))}
+            )}
           </div>
           <div className="sources-links">
             <h3>Further Reading</h3>
@@ -47,15 +47,12 @@ const Sources = () => {
               <li><a href="https://www.champagne.fr/en/find-out-more/mediaroom/champagne-press/champagne-2025-shipment-review-and-outlook" target="_blank" rel="noopener noreferrer">Comite Champagne — 2025 Shipment Review</a></li>
               <li><a href="https://stockanalysis.com/stocks/rick/revenue/" target="_blank" rel="noopener noreferrer">Stock Analysis — RCI Hospitality (RICK) Revenue</a></li>
               <li><a href="https://www.marketplace.org/story/2025/03/28/recession-indicators-internet-culture-trend" target="_blank" rel="noopener noreferrer">Marketplace — Recession Indicators Based on Culture</a></li>
-              <li><a href="https://www.businessinsider.com/frozen-pizza-sales-recession-indicator-stock-market-crash-consumer-trends-2025-4" target="_blank" rel="noopener noreferrer">Business Insider — Frozen Pizza as Recession Indicator</a></li>
-              <li><a href="https://www.npr.org/sections/health-shots/2014/10/21/357786150/when-the-economy-goes-down-vasectomies-go-up" target="_blank" rel="noopener noreferrer">NPR — When The Economy Goes Down, Vasectomies Go Up</a></li>
-              <li><a href="https://www.auajournals.org/doi/10.1016/j.juro.2013.12.045" target="_blank" rel="noopener noreferrer">Journal of Urology — Economic Conditions & Vasectomy Rates</a></li>
             </ul>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Sources;
