@@ -1,5 +1,6 @@
 import Header from "@/components/vibes/Header";
 import Hero from "@/components/vibes/Hero";
+import CompositeScore from "@/components/vibes/CompositeScore";
 import IndicatorCard from "@/components/vibes/IndicatorCard";
 import Methodology from "@/components/vibes/Methodology";
 import Sources from "@/components/vibes/Sources";
@@ -21,7 +22,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        
+        <CompositeScore />
 
         {/* Disclaimer */}
         <div className="disclaimer">
