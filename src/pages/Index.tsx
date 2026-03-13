@@ -18,7 +18,7 @@ const Index = () => {
         {/* Disclaimer */}
         <div className="disclaimer">
           <div className="container">
-            <p className="text-sm">Last update Mar 2026. Refreshes monthly.</p>
+            <p className="text-base">Last update Mar 2026. Refreshes monthly.</p>
           </div>
         </div>
 
