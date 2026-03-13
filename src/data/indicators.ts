@@ -112,7 +112,7 @@ export const indicators: Indicator[] = [
     id: 'cardboard',
     emoji: '📦',
     name: 'The Cardboard Box Index',
-    aka: 'Greenspan\'s Other Hobby',
+    aka: 'Consumerism Predictor',
     desc: 'Nearly everything shipped uses corrugated cardboard. When box demand drops, people are buying less stuff. Period. Even Alan Greenspan tracked cardboard prices. During 2008, shipments plummeted.',
     rationale: 'Mar 2026: FRED PPI for corrugated boxes flat at 391.5 since Oct 2025. US box shipments hit their lowest Q3 since 2015. Production capacity cut ~10% in 2025.',
     signalBad: 'Shipments declining',
