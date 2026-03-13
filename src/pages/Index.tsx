@@ -21,7 +21,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <CompositeScore />
+        
 
         {/* Disclaimer */}
         <div className="disclaimer">
