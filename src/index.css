@@ -414,7 +414,8 @@ body {
 
 .disclaimer p {
   font-size: 11px;
-  color: var(--color-text-faint);
+  font-weight: 700;
+  color: var(--color-text-muted);
 }
 
 /* ============================================
