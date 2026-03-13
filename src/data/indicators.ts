@@ -220,7 +220,7 @@ export const indicators: Indicator[] = [
     id: 'vasectomy',
     emoji: '✂️',
     name: 'The Vasectomy Index',
-    aka: 'The Snip-onomics Gauge',
+    aka: 'Birth Control Policy',
     desc: 'Urologists report vasectomy consultations spike during recessions — people literally decide they can\'t afford more kids. Vasectomies rose one-third from 2006 to 2010 during the Great Recession. A Journal of Urology study found vasectomy rates positively correlate with unemployment (r = 0.556, p < 0.001).',
     rationale: 'Mar 2026: Vasectomy rates up ~20% nationwide since 2022, with the AUA issuing new 2026 guidelines citing rising annual rates. Economic anxiety compounds the post-Dobbs surge — younger, childless men are driving the trend at unprecedented rates.',
     signalBad: 'Consultations spiking',
