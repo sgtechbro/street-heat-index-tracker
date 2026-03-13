@@ -21,12 +21,10 @@ const IndicatorCard = ({ indicator }: { indicator: Indicator }) => {
         <div className="indicator-card__header">
           <div className="indicator-card__emoji">{indicator.emoji}</div>
           <div className="indicator-card__titles">
-            <div className="indicator-card__top-row">
-              <div className="indicator-card__name">{indicator.name}</div>
-              <span className={`indicator-card__score-badge indicator-card__score-badge--${status.level}`}>{indicator.score}</span>
-            </div>
+            <div className="indicator-card__name">{indicator.name}</div>
             <div className="indicator-card__aka">{indicator.aka}</div>
           </div>
+          <span className={`indicator-card__score-big indicator-card__score-big--${status.level}`}>{indicator.score}</span>
           <ChevronDown size={16} className="indicator-card__chevron" />
         </div>
       </button>

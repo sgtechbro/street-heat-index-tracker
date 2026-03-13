@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
       <div className="container header__inner">
         <a href="#" className="header__logo">
-          <span className="header__logo-icon" style={{ fontSize: '28px' }} aria-label="Street Heat Index Logo">💩</span>
+          <IconFlame size={28} className="header__logo-icon" aria-label="Street Heat Index Logo" />
           <span className="header__logo-text">Street Heat Index Tracker</span>
         </a>
         <div className="header__actions">
