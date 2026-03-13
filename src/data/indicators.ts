@@ -128,7 +128,7 @@ export const indicators: Indicator[] = [
   },
   {
     id: 'hotWaitress',
-    emoji: '🍽️',
+    emoji: '💁🏼‍♀️',
     name: 'Hot Waitress Index',
     aka: 'Attractiveness Reallocation Theory',
     desc: 'Coined by New York Magazine in 2009. In good times, attractive people get high-paying gigs based on looks. In downturns, those jobs vanish and the talent pool floods into the service industry.',
