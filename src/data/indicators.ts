@@ -148,7 +148,7 @@ export const indicators: Indicator[] = [
     id: 'champagne',
     emoji: '🍾',
     name: 'The Champagne Index',
-    aka: 'The Celebration Gauge',
+    aka: 'Celebratory Mood Gauge',
     desc: 'When times are good, corks pop. When they\'re not, people quietly switch to Prosecco. US champagne sales crashed from 23M bottles pre-2008 to 12.5M by 2009 — nearly halved.',
     rationale: 'Mar 2026: Global shipments fell for the 3rd straight year to 266M bottles (lowest since 2005). France domestic market down 4M bottles. No rebound expected.',
     signalBad: 'Champagne sales down',
