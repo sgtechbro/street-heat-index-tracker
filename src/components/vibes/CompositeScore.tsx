@@ -77,18 +77,8 @@ const CompositeScore = () => {
               strokeLinecap="round"
               opacity="0.25"
             />
-            {/* Tick labels */}
-            <text x="30" y="210" className="gauge-tick" textAnchor="middle">
-              0
-            </text>
-            <text x="200" y="28" className="gauge-tick" textAnchor="middle">
-              50
-            </text>
-            <text x="370" y="210" className="gauge-tick" textAnchor="middle">
-              100
-            </text>
             {/* Score text */}
-            <text x="200" y="175" className="gauge-score" textAnchor="middle" style={{ fill: scoreColor }}>
+            <text x="200" y="155" className="gauge-score" textAnchor="middle" style={{ fill: scoreColor, fontSize: "72px" }}>
               {score}
             </text>
             {/* Needle */}
