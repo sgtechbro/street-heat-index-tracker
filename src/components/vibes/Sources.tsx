@@ -22,7 +22,7 @@ const Sources = () => {
         <div
           className={`sources-section__content${isOpen ? " sources-section__content--open" : ""}`}>
           
-          <div className="sources-grid">
+          <div className="sources-grid" style={{ paddingTop: "1.5rem" }}>
             {indicators.map((ind) =>
             <div key={ind.id} className="source-card">
                 <div className="source-card__indicator">{ind.emoji} {ind.name}</div>
