@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Sun, Moon } from "lucide-react";
+import { IconFlame } from "@tabler/icons-react";
 
 const Header = () => {
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
