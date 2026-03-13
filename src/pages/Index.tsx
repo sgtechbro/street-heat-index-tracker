@@ -15,6 +15,13 @@ const Index = () => {
         <Hero />
         <CompositeScore />
 
+        {/* Updated tag */}
+        <div className="disclaimer updated-tag">
+          <div className="container">
+            <p><span className="header__pulse"></span> Updated Mar 2026</p>
+          </div>
+        </div>
+
         {/* Disclaimer */}
         <div className="disclaimer">
           <div className="container">
