@@ -533,7 +533,7 @@ body {
 
 .indicator-card__aka {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--text-sm);
   color: var(--color-text-faint);
 }
 
